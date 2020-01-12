@@ -1,0 +1,12 @@
+body {
+    background-color: papayawhip;
+}
+
+.container{
+    text-align: center;
+    font-size: 150%;
+}
+
+#press{
+    font-size: larger;
+}

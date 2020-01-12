@@ -2,7 +2,11 @@
 <html>
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
 <script>
+
     //For 1st president
 $(document).ready(function(){
   $("#btn1").click(function(){
@@ -229,11 +233,11 @@ $(document).ready(function(){
 
   });
 
+  //for the timer
 
-
-
-
-
+  function myFunction() {
+  alert('TIMES UP');
+}
 
 
 
@@ -251,22 +255,30 @@ $(document).ready(function(){
 </script>
 </head>
 <body>
-
-<h1>President Trivia Game</h1>
-
-
-<h2>
+    
+   
+    <div class="container">
+        
+    
+    
+    <h1>President Trivia Game</h1>
+    <button onclick="setTimeout(myFunction, 2 * 30000);" id="press">Press Start</button>
+   <br>
+   <br>
+   <br>
       
         <div1> Who was the 1st President of the United States of America?
-         <button id="btn1">George Washington</button> </div1>
+         <button id="btn1">George Washington</button> 
          <button id="btn2">Theodore Roosevelt</button> 
-         <button id="btn3">John Adams</button> </div>
+         <button id="btn3">John Adams</button> </div1>
+         <br>
          <br>
      
          <div2> Who was the 6th President of the United States of America?
          <button id="btn4">Andrew Jackson</button>
          <button id="btn5">John Quincy Adams</button>
-        <button id="btn6">James Monroe</button> </div2>
+         <button id="btn6">James Monroe</button> </div2>
+         <br>
          <br>
 
              <div3> Who was the 11th President of the United States of America?
@@ -275,16 +287,19 @@ $(document).ready(function(){
                <button id="btn9">John Tyler</button> </div3>
              
          <br>
+         <br>
              <div4> Who was the 16th President of the United States of America?
                 <button id="btn10">Andrew Johnson</button>
                 <button id="btn11">James Buchanan</button>
                <button id="btn12">Abraham Lincoln</button></div4>
      
           <br>
+          <br>
               <div5> Who was the 21st President of the United States of America?
                 <button id="btn13">Chester A Arthur</button>
                 <button id="btn14">Grover Cleveland</button>
                 <button id="btn15">James A Garfield</button> </div5>
+          <br>
           <br>
               <div6> Who was the 26th President of the United States of America?
                 <button id="btn16">William Howard Taft</button>
@@ -293,11 +308,13 @@ $(document).ready(function(){
 
      
           <br>
+          <br>
              <div7> Who was the 31st President of the United States of America?
                 <button id="btn19">Herbert Hoover</button>
                 <button id="btn20">Calvin Coolidge</button>
                 <button id="btn21">Franklin D Roosevelt</button></div7>
 
+          <br>
           <br>
              <div8> Who was the 36th President of the United States of America?
                 <button id="btn22">Richard Nixon</button>
@@ -305,19 +322,21 @@ $(document).ready(function(){
                 <button id="btn24">Lyndon Johnson</button> </div8>
 
          <br>
+         <br>
              <div9> Who was the 41st President of the United States of America?
                 <button id="btn25">Ronald Reagan</button>
                 <button id="btn26">Bill Clinton</button>
                 <button id="btn27">George H Bush</button> </div9>
+          <br>
           <br>
              <div10> Who is the 45th President of the United States of America?
                 <button id="btn28">Barack Obama</button>
                 <button id="btn29">Donald Trump</button>
                 <button id="btn30">George W Bush</button> </div10>
              
-     
-</h2>
+                
 
+            </div>
 
 
 
