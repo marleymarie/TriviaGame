@@ -1,4 +1,5 @@
-<script>
+
+
     //For 1st president
 $(document).ready(function(){
   $("#btn1").click(function(){
@@ -225,6 +226,11 @@ $(document).ready(function(){
 
   });
 
+  //for the timer
+
+  function myFunction() {
+  alert('TIMES UP');
+}
 
 
 
@@ -239,4 +245,3 @@ $(document).ready(function(){
 
 
 
-</script>
