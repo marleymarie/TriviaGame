@@ -1,93 +1,326 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Trivia Game</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    //For 1st president
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    $("div1").append(" <b>correct</b>.");
+  });
+
+  });
+ 
+  $(document).ready(function(){
+  $("#btn2").click(function(){
+    $("div1").append(" <b>incorrect</b>.");
+  });
+
+  });
+  
+  $(document).ready(function(){
+  $("#btn3").click(function(){
+    $("div1").append(" <b>incorrect</b>.");
+  });
+
+  });
+  // For the 6th President
+
+  $(document).ready(function(){
+  $("#btn4").click(function(){
+    $("div2").append(" <b>incorrect</b>.");
+  });
+
+  });
+
+  $(document).ready(function(){
+  $("#btn5").click(function(){
+    $("div2").append(" <b>correct</b>.");
+  });
+
+  });
+
+  $(document).ready(function(){
+  $("#btn6").click(function(){
+    $("div2").append(" <b>incorrect</b>.");
+  });
+
+  });
+ //For the 11th President
+ $(document).ready(function(){
+  $("#btn7").click(function(){
+    $("div3").append(" <b>incorrect</b>.");
+  });
+
+  });
+
+  $(document).ready(function(){
+  $("#btn8").click(function(){
+    $("div3").append(" <b>correct</b>.");
+  });
+
+  });
+
+  $(document).ready(function(){
+  $("#btn9").click(function(){
+    $("div3").append(" <b>incorrect</b>.");
+  });
+
+  });
+
+  //For 16th President
+  $(document).ready(function(){
+  $("#btn10").click(function(){
+    $("div4").append(" <b>incorrect</b>.");
+  });
+
+  });
+
+  $(document).ready(function(){
+  $("#btn11").click(function(){
+    $("div4").append(" <b>incorrect</b>.");
+  });
+
+  });
+
+  $(document).ready(function(){
+  $("#btn12").click(function(){
+    $("div4").append(" <b>correct</b>.");
+  });
+
+  });
+  
+  //For the 21st president
+
+  $(document).ready(function(){
+  $("#btn13").click(function(){
+    $("div5").append(" <b>correct</b>.");
+  });
+
+  });
+
+  $(document).ready(function(){
+  $("#btn14").click(function(){
+    $("div5").append(" <b>incorrect</b>.");
+  });
+
+  });
+
+  $(document).ready(function(){
+  $("#btn15").click(function(){
+    $("div5").append(" <b>incorrect</b>.");
+  });
+
+  });
+
+  //For the 26th President
+
+  $(document).ready(function(){
+  $("#btn16").click(function(){
+    $("div6").append(" <b>incorrect</b>.");
+  });
+
+  });
+
+  
+  $(document).ready(function(){
+  $("#btn17").click(function(){
+    $("div6").append(" <b>correct</b>.");
+  });
+
+  });
+
+  
+  $(document).ready(function(){
+  $("#btn18").click(function(){
+    $("div6").append(" <b>incorrect</b>.");
+  });
+
+  });
+
+  //For the 31st President
+
+  $(document).ready(function(){
+  $("#btn19").click(function(){
+    $("div7").append(" <b>correct</b>.");
+  });
+
+  });
+
+  $(document).ready(function(){
+  $("#btn20").click(function(){
+    $("div7").append(" <b>incorrect</b>.");
+  });
+
+  });
+
+  $(document).ready(function(){
+  $("#btn21").click(function(){
+    $("div7").append(" <b>incorrect</b>.");
+  });
+
+  });
+
+  //For the 36th President
+
+  $(document).ready(function(){
+  $("#btn22").click(function(){
+    $("div8").append(" <b>incorrect</b>.");
+  });
+
+  });
+
+  $(document).ready(function(){
+  $("#btn23").click(function(){
+    $("div8").append(" <b>incorrect</b>.");
+  });
+
+  });
+
+  $(document).ready(function(){
+  $("#btn24").click(function(){
+    $("div8").append(" <b>correct</b>.");
+  });
+
+  });
+
+  //For the 41st President
+
+  $(document).ready(function(){
+  $("#btn25").click(function(){
+    $("div9").append(" <b>incorrect</b>.");
+  });
+
+  });
+
+  $(document).ready(function(){
+  $("#btn26").click(function(){
+    $("div9").append(" <b>incorrect</b>.");
+  });
+
+  });
+
+  $(document).ready(function(){
+  $("#btn27").click(function(){
+    $("div9").append(" <b>correct</b>.");
+  });
+
+  });
+
+  //For the 45th President
+  $(document).ready(function(){
+  $("#btn28").click(function(){
+    $("div10").append(" <b>incorrect</b>.");
+  });
+
+  });
+
+  $(document).ready(function(){
+  $("#btn29").click(function(){
+    $("div10").append(" <b>correct</b>.");
+  });
+
+  });
+
+  $(document).ready(function(){
+  $("#btn30").click(function(){
+    $("div10").append(" <b>incorrect</b>.");
+  });
+
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
 </head>
 <body>
-    
-    <h1> TOTALLY TRIVIA</h1>
 
-    <div class="list">
-
-    <h2 id="questions">
-      <ul>  
-   <li> Who was the 1st President of the United States of America?
-    <button onclick="myFunction()">George Washington</button>
-    <button onclick="myFunction()">Thomas Jefferson</button>
-    <button onclick="myFunction()">John Adams</button> </li>
-    <br>
-
-    <li> Who was the 6th President of the United States of America?
-        <button onclick="myFunction()">Andrew jackson</button>
-        <button onclick="myFunction()">James Monroe</button>
-        <button onclick="myFunction()">John Quincy Adams</button> </li>
-    <br>
-        <li> Who was the 11th President of the United States of America?
-            <button onclick="myFunction()">Zachary Taylor</button>
-            <button onclick="myFunction()">James K Polk</button>
-            <button onclick="myFunction()">John Tyler</button></li>
-        
-    <br>
-        <li> Who was the 16th President of the United States of America?
-            <button onclick="myFunction()">Abraham Lincoln</button>
-            <button onclick="myFunction()">Andrew Johnson</button>
-            <button onclick="myFunction()">James Buchanan</button><li>
-
-     <br>
-         <li> Who was the 21st President of the United States of America?
-            <button onclick="myFunction()">Grover Cleveland</button>
-            <button onclick="myFunction()">James A Garfield</button>
-            <button onclick="myFunction()">Chester A. Arthur</button></li>
-     <br>
-         <li> Who was the 26th President of the United States of America?
-            <button onclick="myFunction()">Theodore Roosevelt </button>
-            <button onclick="myFunction()">William Howard Taft</button>
-            <button onclick="myFunction()">William Mckinley</button></li>
-
-     <br>
-        <li> Who was the 31st President of the United States of America?
-            <button onclick="myFunction()">Franklin D Roosevelt</button>
-            <button onclick="myFunction()">Herbert Hoover</button>
-            <button onclick="myFunction()">Calvin Coolidge</button></li>
-     <br>
-        <li> Who was the 36th President of the United States of America?
-            <button onclick="myFunction()">John F Kennedy</button>
-            <button onclick="myFunction()">Richard Nixon</button>
-            <button onclick="myFunction()">Lyndon Johnson</button></li>
-    <br>
-        <li> Who was the 41st President of the United States of America?
-            <button onclick="myFunction()">Bill Clinton</button>
-            <button onclick="myFunction()">George H Bush</button>
-            <button onclick="myFunction()">Ronald Reagan</button></li>
-     <br>
-        <li> Who is the 45th President of the United States of America?
-            <button onclick="myFunction()">Barack Obama</button>
-            <button onclick="myFunction()">Donald Trump</button>
-            <button onclick="myFunction()">George W Bush</button></li>
-        </ul>
-    </h2>
-
-    </div>
-    
- 
+<h1>President Trivia Game</h1>
 
 
-<script>
+<h2>
+      
+        <div1> Who was the 1st President of the United States of America?
+         <button id="btn1">George Washington</button> </div1>
+         <button id="btn2">Theodore Roosevelt</button> 
+         <button id="btn3">John Adams</button> </div>
+         <br>
+     
+         <div2> Who was the 6th President of the United States of America?
+         <button id="btn4">Andrew Jackson</button>
+         <button id="btn5">John Quincy Adams</button>
+        <button id="btn6">James Monroe</button> </div2>
+         <br>
 
-function georgeWashington() {
-  var questions = prompt("Who was the first president of the UNITED STATES OF AMERICA?");
-  if (questions === georgeWashington) {
-    alert ("Correct!");
-  }
-  else{ (alert ("wrong"))
-}''
-}
-    
-    
-    </script>
+             <div3> Who was the 11th President of the United States of America?
+                <button id="btn7">James K Polk</button>
+                <button id="btn8">Zachary Taylor</button>
+               <button id="btn9">John Tyler</button> </div3>
+             
+         <br>
+             <div4> Who was the 16th President of the United States of America?
+                <button id="btn10">Andrew Johnson</button>
+                <button id="btn11">James Buchanan</button>
+               <button id="btn12">Abraham Lincoln</button></div4>
+     
+          <br>
+              <div5> Who was the 21st President of the United States of America?
+                <button id="btn13">Chester A Arthur</button>
+                <button id="btn14">Grover Cleveland</button>
+                <button id="btn15">James A Garfield</button> </div5>
+          <br>
+              <div6> Who was the 26th President of the United States of America?
+                <button id="btn16">William Howard Taft</button>
+                <button id="btn17">Theodore Roosevelt</button>
+                <button id="btn18">William Mckinley</button></div6>
+
+     
+          <br>
+             <div7> Who was the 31st President of the United States of America?
+                <button id="btn19">Herbert Hoover</button>
+                <button id="btn20">Calvin Coolidge</button>
+                <button id="btn21">Franklin D Roosevelt</button></div7>
+
+          <br>
+             <div8> Who was the 36th President of the United States of America?
+                <button id="btn22">Richard Nixon</button>
+                <button id="btn23">John F Kennedy</button>
+                <button id="btn24">Lyndon Johnson</button> </div8>
+
+         <br>
+             <div9> Who was the 41st President of the United States of America?
+                <button id="btn25">Ronald Reagan</button>
+                <button id="btn26">Bill Clinton</button>
+                <button id="btn27">George H Bush</button> </div9>
+          <br>
+             <div10> Who is the 45th President of the United States of America?
+                <button id="btn28">Barack Obama</button>
+                <button id="btn29">Donald Trump</button>
+                <button id="btn30">George W Bush</button> </div10>
+             
+     
+</h2>
+
+
+
+
 
 </body>
 </html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    $("p").append(" <b>correct</b>.");
+  });
+
+  
+});
+
+$(document).ready(function(){
+  $("#btn2").click(function(){
+    $("p").append(" <b>corrects</b>.");
+  });
+
+  
+});
+</script>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+
+
+<button id="btn1">correct</button>
+<button id="btn2">corrects</button>
+
+
+</body>
+</html>
